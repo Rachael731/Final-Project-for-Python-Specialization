@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="bg-white shadow-md p-6 rounded">
+        <h1 class="text-2xl font-bold">{{ program.graduate_program }}</h1>
+        <p><strong>University:</strong> {{ program.university }}</p>
+        <p><strong>Language:</strong> {{ program.language }}</p>
+        <p><strong>Degree:</strong> {{ degree }}</p>
+        <p><strong>GPA:</strong> {{ gpa }}</p>
+        <p><strong>Country:</strong> {{ program.country }}</p>
+        
+        <h3 class="mt-4 font-semibold">Additional Requirements:</h3>
+        <ul class="list-disc pl-5">
+            {% for requirement in additional_requirements %}
+                <li>{{ requirement }}</li>
+            {% empty %}
+                <li>No additional requirements listed.</li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock %}

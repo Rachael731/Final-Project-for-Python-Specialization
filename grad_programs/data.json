@@ -1,0 +1,217 @@
+[
+    {
+        "model": "programs.graduateprogram",
+        "pk": 1,
+        "fields": {
+            "graduate_program": "Master of Science in Mechanical Engineering",
+            "university": "Massachusetts Institute of Technology",
+            "qualifications": {
+                "degree": "BSc in Aerospace Engineering",
+                "GPA": 3.5,
+                "additional_requirements": [
+                    "Online application.",
+                    "Relevant research experience.",
+                    "Three letters of recommendation.",
+                    "Statement of objectives.",
+                    "Transcripts.",
+                    "English proficiency exams for non-native English speakers."
+                ]
+            },
+            "language": "English",
+            "country": "United States"
+        }
+    },
+    {
+        "model": "programs.graduateprogram",
+        "pk": 2,
+        "fields": {
+            "graduate_program": "Master of Science in Aerospace Engineering",
+            "university": "California Institute of Technology",
+            "qualifications": {
+                "degree": "BSc in Mechanical Engineering",
+                "GPA": 3.7,
+                "additional_requirements": [
+                    "Internship experience in the field.",
+                    "Course transcripts.",
+                    "Letters of recommendation.",
+                    "Evidence of English proficiency.",
+                    "GRE is optional.",
+                    "Personal statement."
+                ]
+            },
+            "language": "English",
+            "country": "United States"
+        }
+    },
+    {
+        "model": "programs.graduateprogram",
+        "pk": 3,
+        "fields": {
+            "graduate_program": "Master of Science in Aeronautical Engineering",
+            "university": "Imperial College London",
+            "qualifications": {
+                "degree": "BEng in Aerospace Engineering",
+                "GPA": 2.1,
+                "additional_requirements": [
+                    "Portfolio of projects.",
+                    "Research proposal.",
+                    "Two academic references."
+                ]
+            },
+            "language": "English",
+            "country": "United Kingdom"
+        }
+    },
+    {
+        "model": "programs.graduateprogram",
+        "pk": 4,
+        "fields": {
+            "graduate_program": "Master of Science in Robotics",
+            "university": "ETH Zurich",
+            "qualifications": {
+                "degree": "BSc in Mechanical Engineering",
+                "GPA": 4.0,
+                "additional_requirements": [
+                    "Experience with programming languages.",
+                    "Motivational letter.",
+                    "Interview (if selected)."
+                ]
+            },
+            "language": "German",
+            "country": "Switzerland"
+        }
+    },
+    {
+        "model": "programs.graduateprogram",
+        "pk": 5,
+        "fields": {
+            "graduate_program": "Master of Science in Aerospace Engineering",
+            "university": "University of Sydney",
+            "qualifications": {
+                "degree": "BEng in Mechanical Engineering",
+                "GPA": 3.3,
+                "additional_requirements": [
+                    "Work experience in aerospace projects.",
+                    "Research interest alignment.",
+                    "Three letters of recommendation."
+                ]
+            },
+            "language": "English",
+            "country": "Australia"
+        }
+    },
+    {
+        "model": "programs.graduateprogram",
+        "pk": 6,
+        "fields": {
+            "graduate_program": "Master of Science in Aerospace Engineering",
+            "university": "Ecole centrale de Lyon",
+            "qualifications": {
+                "degree": "Bachelor degree (180 ECTS) in a field of science or engineering",
+                "GPA": 3.83,
+                "additional_requirements": [
+                    "Curriculum Vitae.",
+                    "Personal statement.",
+                    "Copy of your passport or identity document.",
+                    "Passport or identity photo.",
+                    "An academic reference from one of your professors, from the last year of your latest academic programme.",
+                    "A reference from your employer if you are not currently registered as a student.",
+                    "Transcript of your academic results for the current year (Bachelor or Masters programme) and for all the preceding years of your university programmes.",
+                    "Copy of the last degree certificate that you were awarded."
+                ]
+            },
+            "language": "English",
+            "country": "France"
+        }
+    },
+    {
+        "model": "programs.graduateprogram",
+        "pk": 7,
+        "fields": {
+            "graduate_program": "Master of Science in Aerospace Engineering",
+            "university": "Technical University of Munich Asia",
+            "qualifications": {
+                "degree": "Bachelor Degree in Aerospace/ Mechanical Engineering or in a closely related discipline with remarkable results (completed in at least three years, depending on factors such as the rest of your education background).",
+                "GPA": 2.0,
+                "additional_requirements": [
+                    "1 copy of Official or Provisional Academic Transcript.",
+                    "Module Descriptions of all the modules you have taken in your Transcript.",
+                    "1 Statement of Purpose.",
+                    "1 Curriculum Vitae/Resume.",
+                    "1 Passport-sized photograph.",
+                    "1 Passport Biodata Page photocopy.",
+                    "Akademische Prufstelle (APS) Certificate (Required for all applicants who hold a degree from China, India or Vietnam).",
+                    "Proof of English Proficiency- TOEFL or IELTS (Required for applicants whose native tongue or medium of instruction from previous studies is not in English)"
+                ]
+            },
+            "language": "German",
+            "country": "Singapore"
+        }
+    },
+    {
+        "model": "programs.graduateprogram",
+        "pk": 8,
+        "fields": {
+            "graduate_program": "Master of Science in Mechanical Engineering",
+            "university": "École Polytechnique Fédérale de Lausanne (EPFL)",
+            "qualifications": {
+                "degree": "Anyone holding a Bachelor's degree from a university (or equivalent) in a field related to the EPFL curricula",
+                "GPA": 3.83,
+                "additional_requirements": [
+                    "Curriculum vitae.",
+                    "Copy of your University degree(s), if already available.",
+                    "Statement of Purpose.",
+                    "Complete transcripts from each university you have attended.",
+                    "The contact details of three academic referees, who will each be asked to produce a recommendation letter for you (except for holders of an EPFL Bachelor's degree, and those who hold a Bachelor's degree from ETH Zürich or a Swiss university or FHS/HES and are applying for a Master’s program in the same field of study).",
+                    "Your identity card or passport.",
+                    "Extra documents, such as TOEFL or GRE scores, research publications, or other portfolios of your previous work, are welcome but not compulsory."
+                ]
+            },
+            "language": "French",
+            "country": "Switzerland"
+        }
+    },
+    {
+        "model": "programs.graduateprogram",
+        "pk": 9,
+        "fields": {
+            "graduate_program": "Master of Science in Aerospace Engineering",
+            "university": "TU Delft",
+            "qualifications": {
+                "degree": "A bachelor's degree with a Cumulative Grade Point Average of at least 75% of the scale maximum unless specific requirements are defined.",
+                "GPA": "75%",
+                "additional_requirements": [
+                    "Resume.",
+                    "2 Reference letters.",
+                    "GRE",
+                    "Transcript + translation if not in English or Dutch.",
+                    "Statement of Purpose.",
+                    "Proof of English language proficiency.",
+                    "Passport (all relevant pages) or European ID card (both sides).",
+                    "Residence permit.",
+                    "Motivation letter."
+                ]
+            },
+            "language": "Singapore",
+            "country": "Netherlands"
+        }
+    },
+    {
+        "model": "programs.graduateprogram",
+        "pk": 10,
+        "fields": {
+            "graduate_program": "Master of Science in Mechanical Engineering",
+            "university": "National University of Singapore",
+            "qualifications": {
+                "degree": "An undergraduate degree with honours or its equivalent from a renowned University, preferably from Mechanical Engineering. Applicants without an honours degree will be considered for admission, subject to the scores during the course of study, proof of strong technical background and having at least 2 years of working experience (preferably in mechanical engineering sector).",
+                "GPA": "75%",
+                "additional_requirements": [
+                    "TOFEL (Internet-based test): 85 or IELTS (Academic): 6.0",
+                    "GRE not required."
+                ]
+            },
+            "language": "English",
+            "country": "Singapore"
+        }
+    }
+]

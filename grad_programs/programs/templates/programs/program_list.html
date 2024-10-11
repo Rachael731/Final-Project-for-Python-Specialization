@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="flex justify-between items-center mb-4">
+        <form method="GET" action="{% url 'program_list' %}" class="flex">
+            <input type="text" name="search" placeholder="Search programs..." value="{{ request.GET.search }}" class="p-2 border rounded">
+            <select name="language" class="ml-2 p-2 border rounded">
+                <option value="">All Languages</option>
+                <option value="English" {% if request.GET.language == 'English' %}selected{% endif %}>English</option>
+                <option value="German" {% if request.GET.language == 'German' %}selected{% endif %}>German</option>
+                <option value="French" {% if request.GET.language == 'French' %}selected{% endif %}>French</option>
+                <option value="Singapore" {% if request.GET.language == 'Singapore' %}selected{% endif %}>Singapore</option>
+                <!-- Add more languages as needed -->
+            </select>
+            <button type="submit" class="ml-2 bg-blue-600 text-white p-2 rounded">Search</button>
+        </form>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {% for program in programs %}
+            <div class="bg-white shadow-md p-4 rounded">
+                <h2 class="text-lg font-semibold">{{ program.graduate_program }}</h2>
+                <p class="text-gray-600">{{ program.university }}</p>
+                <a href="{% url 'program_detail' program.id %}" class="text-blue-500">View Details</a>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
